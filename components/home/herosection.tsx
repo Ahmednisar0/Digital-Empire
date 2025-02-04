@@ -5,14 +5,14 @@ import { motion } from 'framer-motion';
 const HeroSection = () => {
   return (
     <motion.section
-      className="relative flex items-center justify-center min-h-screen lg:mt-0 mt-[-130px] bg-white overflow-hidden"
+      className="relative flex items-center justify-center h-[800px] lg:mb-0 lg:h-screen lg:mt-[-100px] mt-[-130px] bg-white overflow-hidden"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
       {/* Left Shape */}
       <motion.div
-        className="absolute mt-[220px] lg:mt-[-100px] left-0 top-1/2 transform -translate-y-1/2 w-1/4 md:w-1/6 lg:w-1/5"
+        className="absolute mt-[170px] lg:mt-[-100px] left-0 top-1/2 transform -translate-y-1/2 w-1/4 md:w-1/6 lg:w-1/5"
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
@@ -28,7 +28,7 @@ const HeroSection = () => {
 
       {/* Center Content */}
       <motion.div
-        className="text-center lg:w-[700px] z-10 px-4"
+        className="text-center lg:w-[700px] lg:mt-0 mt-[-200px] z-10 px-4"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
@@ -56,7 +56,7 @@ const HeroSection = () => {
 
       {/* Right Shape */}
       <motion.div
-        className="absolute mt-[180px]  lg:mt-[-100px] right-0 top-1/2 transform -translate-y-1/2 w-1/4 md:w-1/6 lg:w-1/5"
+        className="absolute mt-[130px]  lg:mt-[-100px] right-0 top-1/2 transform -translate-y-1/2 w-1/4 md:w-1/6 lg:w-1/5"
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
