@@ -41,22 +41,22 @@ const Footer = () => {
         <nav className="mb-6">
           <ul className="flex  gap-4 text-gray-600 text-[15px]">
             <li>
-              <a href="#home" className="hover:text-black">
+              <a href="/" className="hover:text-black">
                 Home
               </a>
             </li>
             <li>
-              <a href="#services" className="hover:text-black">
+              <a href="/services" className="hover:text-black">
                 Services
               </a>
             </li>
             <li>
-              <a href="#ourwork" className="hover:text-black">
+              <a href="/ourwork" className="hover:text-black">
                 Our Work
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-black">
+              <a href="/about" className="hover:text-black">
                 About
               </a>
             </li>
@@ -72,13 +72,13 @@ const Footer = () => {
           <h3 className="text-lg font-bold text-gray-700 mb-4">Stay Connected</h3>
           <div className="flex gap-4">
             {/* Social Media Icons */}
-            <a href="#linkedin" className="p-4 rounded-full bg-pink-600 text-white shadow-lg hover:scale-110 transition-transform">
+            <a href="#linkedin" className="p-4 rounded-full bg-[#FF0066] text-white shadow-lg hover:scale-110 transition-transform">
               <FaLinkedin size={20} />
             </a>
-            <a href="#instagram" className="p-4 rounded-full bg-pink-600 text-white shadow-lg hover:scale-110 transition-transform">
+            <a href="#instagram" className="p-4 rounded-full bg-[#FF0066] text-white shadow-lg hover:scale-110 transition-transform">
               <FaInstagram size={20} />
             </a>
-            <a href="#facebook" className="p-4 rounded-full bg-pink-600 text-white shadow-lg hover:scale-110 transition-transform">
+            <a href="facebook" className="p-4 rounded-full bg-[#FF0066] text-white shadow-lg hover:scale-110 transition-transform">
               <FaFacebook size={20} />
             </a>
           </div>

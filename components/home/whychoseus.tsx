@@ -8,11 +8,12 @@ import { FaAward, FaChartLine } from 'react-icons/fa';
 const WhyChooseUs = () => {
   return (
     <section className="relative py-16 px-4 lg:mb-0 lg:h-screen">
-      <div className='flex justify-center'>
-        <p className='text-center font-bold text-5xl'>Why Choose Us</p>
+      <div className='flex-col flex justify-center'>
+        <p className='text-center font-bold text-3xl lg:text-4xl'>Why Choose Us?</p>
+        <p className=' text-center mx-auto  lg:mt-5 text-gray-500 lg:w-[700px]'>We deliver innovative, results-driven solutions tailored to your needs. With expertise, creativity, and a commitment to excellence, we help your brand stand out in the digital world.</p>
       </div>
 
-      <div className='lg:ml-[-70px] flex lg:flex-row flex-col-reverse'>
+      <div className='lg:ml-[-70px] lg:mt-[-60px] text-[17px] flex lg:flex-row flex-col-reverse'>
         {/* Left Bottom Background Image */}
         <div className='lg:mt-[110px] lg:justify-start items-center mt-[100px] justify-center flex flex-col'>
           <motion.div
@@ -85,7 +86,7 @@ const WhyChooseUs = () => {
                 {/* Heading */}
                 <h3 className="text-lg font-bold text-black">{heading}</h3>
                 {/* Text */}
-                <p className="text-gray-700 lg:w-[500px] text-sm">{text}</p>
+                <p className="text-gray-700 w-[320px] lg:w-[500px] text-sm">{text}</p>
               </motion.div>
             ))}
           </div>

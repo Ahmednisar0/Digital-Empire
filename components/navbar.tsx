@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className='flex lg:w-[200px] w-full items-center lg:items-start justify-between'> {/* Left Section: Logo */}
         <div className="flex  items-center">
           <img
-            src="/images/logo.jpg"
+            src="/images/digitalempire1.jpg"
             alt="Digital Empire Logo"
             className="w-12 h-12 mr-3 rounded-2xl object-contain"
           />
@@ -49,22 +49,22 @@ const Navbar = () => {
         >
           <ul className="flex flex-col lg:flex-row lg:items-center gap-6 lg:gap-8 text-center">
             <li>
-              <a href="#home" className="hover:text-black">
+              <a href="/" className="hover:text-black">
                 Home
               </a>
             </li>
             <li>
-              <a href="#services" className="hover:text-black">
+              <a href="/services" className="hover:text-black">
                 Services
               </a>
             </li>
             <li>
-              <a href="#ourwork" className="hover:text-black">
+              <a href="/ourwork" className="hover:text-black">
                 Our Work
               </a>
             </li>
             <li>
-              <a href="#aboutus" className="hover:text-black">
+              <a href="/about" className="hover:text-black">
                 About Us
               </a>
             </li>
