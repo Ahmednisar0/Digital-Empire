@@ -66,7 +66,7 @@ const ServicesPage: React.FC = () => {
                 >
                   <img src={service.image} alt={service.name} className="lg:w-[330px] h-auto rounded-lg" />
                   <div className="flex space-x-2 mt-4">
-                    <div className="w-4 h-4 mt-[5px] bg-[#FF0066] rounded-full"></div>
+                    <div className="w-4 h-4 mt-[5px] bg-[#ff002b] rounded-full"></div>
                     <h3 className="text-xl font-bold text-black mb-2">{service.name}</h3>
                   </div>
                   <p className="text-gray-600 lg:h-[70px] mb-4">{service.description}</p>

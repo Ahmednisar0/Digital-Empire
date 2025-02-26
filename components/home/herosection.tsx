@@ -43,7 +43,7 @@ const HeroSection = () => {
         {/* Our Services Button with Framer Motion */}
         <motion.a
           href="/services"
-          className="mt-6 inline-block bg-[#FF0066] text-white py-2 px-6 rounded-full text-lg hover:bg-purple-700 transition duration-300"
+          className="mt-6 inline-block bg-[#ff002b] text-white py-2 px-6 rounded-full text-lg hover:bg-purple-700 transition duration-300"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           initial={{ opacity: 0 }}

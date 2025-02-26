@@ -23,8 +23,8 @@ const Navbar = () => {
             <span className="text-gray-700">Digital</span>{' '}
             <span
               style={{
-                color: 'rgba(255, 0, 127)',
-                textShadow: '0 0 10px rgba(255, 0, 127, 0.8)',
+                color: 'rgba(255, 49, 49)',
+                textShadow: '0 0 10px rgba(255, 49, 40)',
               }}
             >
               Empire
@@ -74,7 +74,7 @@ const Navbar = () => {
         {/* Right Section: Get Started Button */}
         <div className="hidden lg:block">
           <button
-            className="px-6 py-2 rounded-lg font-medium bg-white text-pink-600 border border-pink-600 hover:bg-pink-50 transition-all"
+            className="px-6 py-2 rounded-lg font-medium bg-white text-[#ff002b] border border-[#ff002b] hover:bg-pink-50 transition-all"
             style={{
               textShadow: '0 0 10px rgba(255, 0, 127, 0.8)',
               boxShadow: '0 0 10px rgba(255, 0, 127, 0.5)',
@@ -89,10 +89,10 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="lg:hidden mt-4 text-center">
           <button
-            className="px-6 py-2 rounded-lg font-medium bg-white text-pink-600 border border-pink-600 hover:bg-pink-50 transition-all"
+            className="px-6 py-2 rounded-lg font-medium bg-white text-[#ff002b] border border-[#ff002b] hover:bg-pink-50 transition-all"
             style={{
-              textShadow: '0 0 10px rgba(255, 0, 127, 0.8)',
-              boxShadow: '0 0 10px rgba(255, 0, 127, 0.5)',
+              textShadow: '0 0 10px rgba(255, 49, 49)',
+              boxShadow: '0 0 10px rgba(255, 49, 49, 0.5)',
             }}
           >
             Get Started

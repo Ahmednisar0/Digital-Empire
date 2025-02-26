@@ -66,7 +66,7 @@ const Services: React.FC = () => {
           icon={<FaCamera size={35} />}
           bgColor="bg-gradient-to-r from-green-400 to-teal-500"
           iconColor="text-white"
-          title="Graphic Design"
+          title="Graphic Designing"
           description="We provide Graphic Design services, with the best designers."
         />
 

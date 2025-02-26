@@ -6,7 +6,7 @@ const OurWorkSection = () => {
     <section className="flex  lg:mt-[100px] lg:ml-[30px] flex-col lg:flex-row items-center justify-between px-6 lg:px-20 py-16">
       {/* Left Side - Text */}
       <div className="max-w-lg text-center lg:text-left">
-        <p className='text-[#FF0066] text-xl font-bold mb-4'>See Our Work in Action</p>
+        <p className='text-[#ff002b] text-xl font-bold mb-4'>See Our Work in Action</p>
         <h2 className="text-4xl font-bold text-gray-900 mb-4">
         Bringing Ideas to Life with Innovation & Creativity
         </h2>
@@ -15,7 +15,7 @@ const OurWorkSection = () => {
           From web development to design, our work speaks for itself—crafted with precision, 
           passion, and cutting-edge technology.
         </p>
-   <Link href={'/ourwork'}>     <button className="px-6 py-3 w-[200px] rounded-lg font-semibold bg-[#FF0066] text-white text-xl hover:bg-pink-700 transition-all">
+   <Link href={'/ourwork'}>     <button className="px-6 py-3 w-[200px] rounded-lg font-semibold bg-[#ff002b] text-white text-xl hover:bg-pink-700 transition-all">
           Our Work
         </button></Link>
       </div>

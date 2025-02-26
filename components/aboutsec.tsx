@@ -16,8 +16,8 @@ const AboutSection: React.FC = () => {
       >
         <h2 className="text-2xl lg:text-5xl font-bold text-gray-900 mb-4">
           About Digital <span style={{
-                color: 'rgba(255, 0, 127)',
-                textShadow: '0 0 10px rgba(255, 0, 127, 0.5)',
+                color: 'rgba(255, 49, 49)',
+                textShadow: '0 0 10px rgba(255, 49, 49, 0.5)',
               }}>Empire</span>
         </h2>
         <p className="text-gray-600 hidden lg:block  mt-8 text-lg w-[730px] mx-auto lg:mx-0">
@@ -33,14 +33,14 @@ We create strong brand identities, high-quality websites, and marketing campaign
         </p>
         <motion.a
           href="/"
-          className="mt-6 inline-block bg-[#FF0066]  text-white py-2 px-6  text-xl rounded-lg hover:bg-[#ff4690] transition duration-300"
+          className="mt-6 inline-block bg-[#ff002b]  text-white py-2 px-6  text-xl rounded-lg hover:bg-[#ff4690] transition duration-300"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-         get your brand succesful today
+         Get Your Brand Succesful Today
         </motion.a>
       
 

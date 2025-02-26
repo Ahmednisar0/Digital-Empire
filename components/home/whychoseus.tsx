@@ -77,7 +77,7 @@ const WhyChooseUs = () => {
                 <div
                   className="mb-4 flex items-center justify-center w-16 h-16 rounded-full"
                   style={{
-                    background: 'linear-gradient(145deg, #FF007F, #D60068)',
+                    background: 'linear-gradient(145deg, #FF007F, #ff002b)',
                     boxShadow: '0 4px 8px rgba(255, 0, 127, 0.5)',
                   }}
                 >

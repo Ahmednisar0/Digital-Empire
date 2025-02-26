@@ -28,8 +28,8 @@ const Footer = () => {
             <span className="text-gray-700">Digital</span>{' '}
             <span
               style={{
-                color: 'rgba(255, 0, 127)',
-                textShadow: '0 0 10px rgba(255, 0, 127, 0.8)',
+                color: 'rgba(255, 49, 49)',
+                textShadow: '0 0 10px rgba(255, 49, 49, 49)',
               }}
             >
               Empire

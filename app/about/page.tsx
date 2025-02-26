@@ -18,8 +18,8 @@ const WhyChooseUs: React.FC = () => {
       <div className="text-center mb-12">
         <h2 className="text-2xl lg:text-4xl font-bold text-gray-900">
           Why Choose Digital <span  style={{
-                color: 'rgba(255, 0, 127)',
-                textShadow: '0 0 10px rgba(255, 0, 127, 0.5)',
+                color: 'rgba(255, 49, 49)',
+                textShadow: '0 0 10px rgba(255, 49, 49, 0.5)',
               }}>Empire</span><span>?</span>
         </h2>
         <p className="text-gray-600 max-w-[700px] mx-auto mt-2">
@@ -64,8 +64,8 @@ const WhyChooseUs: React.FC = () => {
             <div
                               className="mb-4 flex items-center justify-center w-16 h-16 rounded-full"
                               style={{
-                                background: 'linear-gradient(145deg, #FF007F, #D60068)',
-                                boxShadow: '0 4px 8px rgba(255, 0, 127, 0.5)',
+                                background: 'linear-gradient(145deg, #ff002b, #D60068)',
+                                boxShadow: '0 4px 8px rgba(255, 49, 49 , 0.5)',
                               }}
                             >
                               {icon}
