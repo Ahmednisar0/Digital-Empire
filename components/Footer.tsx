@@ -9,11 +9,11 @@ const Footer = () => {
           <h3 className="text-lg font-bold text-gray-700 mb-4">Contact Us</h3>
           <div className="flex items-center gap-4 mb-4">
             <FaPhoneAlt className="text-gray-700" size={20} />
-            <span className="text-gray-600 text-base">+123 456 7890</span>
+            <span className="text-gray-600 text-base">+92 332 8297926</span>
           </div>
           <div className="flex items-center gap-4">
             <FaEnvelope className="text-gray-700" size={20} />
-            <span className="text-gray-600 text-base">info@digitalempire.com</span>
+            <span className="text-gray-600 text-base">Digitalempir247@gmail.com</span>
           </div>
         </div>
       <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
