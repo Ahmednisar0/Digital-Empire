@@ -79,7 +79,7 @@
               "Boost your website's visibility and traffic with our effective SEO strategies.",
             longDescription:
               "Our SEO services focus on optimizing your website for search engines to increase visibility, drive organic traffic, and improve rankings on SERPs.",
-            image: '/images/seo.png',
+            image: '/images/Seo1.png',
             link: 'https://wa.me/+447845009381?text=hey%20i%20want%20to%20know%20more%20about%20SEO%20%28Search%20Engine%20Optimization%29',
             slug: 'seo-search-engine-optimization',
           },
@@ -100,7 +100,7 @@
               "We handle your social media accounts to ensure consistent posting and audience engagement.",
             longDescription:
               "Our social media management service ensures your profiles stay active, engaging, and aligned with your brand identity, allowing you to focus on your business.",
-            image: '/images/smam.png',
+            image: '/images/Smam1.png',
             link: 'https://wa.me/+447845009381?text=hey%20i%20want%20to%20know%20more%20about%20Social%20Media%20Account%20Management',
             slug: 'social-media-account-management',
           },
@@ -110,7 +110,7 @@
             description: "Run targeted social media campaigns to increase brand awareness.",
             longDescription:
               "Our social media marketing services help you create impactful campaigns that drive brand awareness, engagement, and lead generation across major platforms.",
-            image: '/images/smm.png',
+            image: '/images/Smm1.png',
             link: 'https://wa.me/+447845009381?text=hey%20i%20want%20to%20know%20more%20about%20Social%20Media%20Marketing',
             slug: 'social-media-marketing',
           },
@@ -120,7 +120,7 @@
             description: "Manage your Google Ads campaigns for increased visibility and ROI.",
             longDescription:
               "Our SEM services focus on creating and managing Google Ads campaigns that maximize your visibility and ROI through targeted advertising.",
-            image: '/images/sem.png',
+            image: '/images/Sem1.png',
             link: 'https://wa.me/+447845009381?text=hey%20i%20want%20to%20know%20more%20about%20Search%20Engine%20Marketing%20%28SEM%29',
             slug: 'search-engine-marketing-sem',
           },
