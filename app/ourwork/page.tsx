@@ -70,7 +70,7 @@ export default function Page() {
               <Image src={work.imagePath} alt={work.name} height={900} width={600} className="lg:w-full w-[380px]  lg:h-80 object-cover rounded-t-lg" />
             <div className='flex justify-between'>
                 <div><h3 className="text-xl  mt-4">{work.name}</h3>
-            <div className='bg-[#ff94bf] rounded-sm px-2 text-[15px] mt-[10px] border-white'><p className='text-gray-700 ml-[3px]'>{work.link}</p></div>
+            <div className='bg-gray-300 rounded-sm px-2 text-[15px] mt-[10px] border-white'><p className='text-gray-700 ml-[3px]'>{work.link}</p></div>
             </div>
         <Link rel="stylesheet" href={work.link}><div className=' hover:text-[#fc9dc3] rounded-md bg-white mt-5 text-[#FF0066]' style={{ width: '30px', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <BsFillArrowUpRightSquareFill  size={30} />
