@@ -20,7 +20,7 @@ const Footer = () => {
         {/* Logo Section */}
         <div className="flex  items-center mb-6">
           <img
-            src="/images/logo.jpg"
+            src="/images/digitalempire1.jpg"
             alt="Digital Empire Logo"
             className="w-16 h-16 mr-[10px] rounded-2xl object-contain"
           />
