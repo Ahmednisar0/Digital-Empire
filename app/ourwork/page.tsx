@@ -72,7 +72,7 @@ export default function Page() {
                 <div><h3 className="text-xl  mt-4">{work.name}</h3>
             <div className='bg-gray-300 rounded-sm px-2 text-[15px] mt-[10px] border-white'><p className='text-gray-700 ml-[3px]'>{work.link}</p></div>
             </div>
-        <Link rel="stylesheet" href={work.link}><div className=' hover:text-[#fc9dc3] rounded-md bg-white mt-5 text-[#ff002b]' style={{ width: '30px', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Link rel="stylesheet" href={work.link}><div className=' hover:text-[#fc9dc3] rounded-md bg-white mt-5 text-[#ff002b]' style={{ width: '30px', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <BsFillArrowUpRightSquareFill  size={30} />
     </div>  </Link>   </div> 
     <Link rel="stylesheet" href={work.link}>  <p className="text-gray-500 mt-2">{work.description}</p>

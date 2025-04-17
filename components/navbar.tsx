@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -73,7 +74,7 @@ const Navbar = () => {
 
         {/* Right Section: Get Started Button */}
         <div className="hidden lg:block">
-          <button
+        <Link rel="stylesheet" href="https://wa.me/+923231394104?text=hey%20i%20want%20to%20know%20more%20about%20your%20company" > <button
             className="px-6 py-2 rounded-lg font-medium bg-white text-[#ff002b] border border-[#ff002b] hover:bg-pink-50 transition-all"
             style={{
               textShadow: '0 0 10px rgba(255, 0, 127, 0.8)',
@@ -81,23 +82,23 @@ const Navbar = () => {
             }}
           >
             Get Started
-          </button>
+          </button> </Link>
         </div>
       </div>
 
       {/* Mobile Menu Button */}
       {isMenuOpen && (
-        <div className="lg:hidden mt-4 text-center">
-          <button
+        <Link rel="stylesheet" href="https://wa.me/+923231394104?text=hey%20i%20want%20to%20know%20more%20about%20your%20company" > <div className="lg:hidden mt-4 text-center">
+           <button
             className="px-6 py-2 rounded-lg font-medium bg-white text-[#ff002b] border border-[#ff002b] hover:bg-pink-50 transition-all"
             style={{
               textShadow: '0 0 10px rgba(255, 49, 49)',
               boxShadow: '0 0 10px rgba(255, 49, 49, 0.5)',
             }}
           >
-            Get Started
+      GET STARTED
           </button>
-        </div>
+        </div> </Link> 
       )}
     </header>
   );

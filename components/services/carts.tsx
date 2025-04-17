@@ -29,6 +29,7 @@ const ServicesPage: React.FC = () => {
 
 
   return (<div><Navbar/>
+  <h1 className="text-3xl lg:text-5xl text-center font-bold">Our Services </h1>
     <div className=" max-w-screen-sm">
               <div className="container lg:ml-[100px]  px-4 py-8">
         {servicesData.map((category) => (
@@ -70,10 +71,10 @@ const ServicesPage: React.FC = () => {
                     <h3 className="text-xl font-bold text-black mb-2">{service.name}</h3>
                   </div>
                   <p className="text-gray-600 lg:h-[70px] mb-4">{service.description}</p>
-                  <button className="flex items-center border border-black px-4 py-2 text-black font-semibold hover:bg-[#FF0066] hover:text-white rounded-md">
+                  <a href={service.link} className="flex items-center border w-[145px] border-black px-4 py-2 text-black font-semibold hover:bg-[#FF0066] hover:text-white rounded-md">
                     View More
                     <FaArrowRight className="ml-2 w-5 h-5" />
-                  </button>
+                  </a>
                 </motion.div>
               ))}
             </div>

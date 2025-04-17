@@ -71,16 +71,17 @@ const Footer = () => {
      <div className="lg:w-1/3 flex flex-col items-center lg:items-end">
           <h3 className="text-lg font-bold text-gray-700 mb-4">Stay Connected</h3>
           <div className="flex gap-4">
-            {/* Social Media Icons */}
+            {/* Social Media Icons */} <a href="https://www.instagram.com/digitalempire247?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="p-4 rounded-full bg-[#FF0066] text-white shadow-lg hover:scale-110 transition-transform">
+              <FaInstagram size={20} />
+            </a>
+             <a href="https://www.facebook.com/people/Digital-Empire/61569654778959/" className="p-4 rounded-full bg-[#FF0066] text-white shadow-lg hover:scale-110 transition-transform">
+              <FaFacebook size={20} />
+            </a>
             <a href="#linkedin" className="p-4 rounded-full bg-[#FF0066] text-white shadow-lg hover:scale-110 transition-transform">
               <FaLinkedin size={20} />
             </a>
-            <a href="#instagram" className="p-4 rounded-full bg-[#FF0066] text-white shadow-lg hover:scale-110 transition-transform">
-              <FaInstagram size={20} />
-            </a>
-            <a href="facebook" className="p-4 rounded-full bg-[#FF0066] text-white shadow-lg hover:scale-110 transition-transform">
-              <FaFacebook size={20} />
-            </a>
+           
+           
           </div>
         </div> </div>
     </footer>
